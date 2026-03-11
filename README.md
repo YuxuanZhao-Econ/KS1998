@@ -1,6 +1,6 @@
 ﻿# KS1998 Project
 
-This project contains a Julia implementation of the Krusell-Smith (1998) model, organized in a paper-style / replication-style structure.
+This project contains a Julia implementation of the Krusell-Smith (1998) model.
 
 ## Layout
 
