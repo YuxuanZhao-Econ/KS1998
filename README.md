@@ -83,11 +83,16 @@ This script runs:
 
 Use this when you want to solve the model and generate figures in one pass.
 
-### `KS1998_Solver.ipynb`
-Original notebook workflow.
+### `notebooks/`
+Notebook-based exploratory workflow.
 
-This notebook was intentionally left untouched.
-The script-based structure was added alongside it, not in place of it.
+Current notebooks:
+- `KS1998_Solver.ipynb`: solve KS model using the log-form perceived law `log K'' = a_z + b_z log K`
+- `notebooks/KS1998_Solver_Linear.ipynb`: solve KS model using the linear-form perceived law `K'' = a_z + b_z K`
+- `notebooks/compare_result.ipynb`: comparison notebook for reading saved results from the two solver notebooks and plotting side-by-side diagnostics
+
+These notebooks remain available for experimentation, exposition, and model comparisons.
+The script-based structure was added alongside them, not in place of them.
 
 ## How To Run
 
@@ -145,3 +150,4 @@ For reproducible runs:
   - figure production
 - `make_figures.jl` reads saved results instead of re-solving the model.
 - The existing notebook remains available for experimentation and exposition.
+
